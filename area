@@ -1,0 +1,13 @@
+'''Code peça a altura e largura de uma parde, informe o tamanho em 
+m² e a quantidade de tinta utilizada, sendo 2l por m²'''
+
+alt = float(input('Digite a altura da parede em m: '))
+larg = float(input('Digite a largura em m: '))
+mq = alt*larg
+lts = mq//2
+print('Sua parede tem {:.2f}m² e precisará de {:.2f} litros de tinta.'.format(mq, lts))
+
+print('*-'*30)
+
+preco = float(input('Digite o valor do produto: R$ '))
+print('O preço do produto era R$ {} e está com desconto de 5%, o novo valor é R$ {:.2f}'. format(preco, (preco*0.95)))

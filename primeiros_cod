@@ -1,0 +1,25 @@
+print('Olá mundo')
+print('='*30)
+
+nome = input('Digite seu nome: ')
+print("Seja bem vindo,", nome)
+print('É um prazer te conhecer, {}!'.format(nome))
+print('='*30)
+
+n1 = int(input('Digite um número:'))
+n2 = float(input('Digite outro número:'))
+s = n1 + n2
+print('A soma entre {} e {} é {}'.format(n1, n2, s))
+print('A soma entre {} e {} é {}'.format(n1, n2, (n1+n2)))
+print('='*30)
+
+x = input('Digite algo: ')
+print(type(x))
+print(x.isnumeric())
+print(x.isalpha())
+print(x.isalnum())
+print('='*30)
+
+z = int(input('Digite um número: '))
+print('Analisando o número {}, seu antecessor é {} e o sucessor é {}.'.format(z, (z-1), (z+1)))
+print('='*30)

@@ -1,0 +1,23 @@
+'''Code 1: raiz quadrada com lib math
+Code 2: conversor de temperatura ºC > ºF
+Code 3: Locação de veiculo e km rodado'''
+
+
+from math import sqrt
+
+num = int(input('Digite um número: '))
+raiz = sqrt(num)
+print('A raiz de {} é {:.2f}.'.format(num, raiz))
+
+print('-'*30)
+
+c = float(input('Digite a temperatura em ºC: '))
+f = c * 9/5 + 32
+print('A temperatura de {}ºC corresponde a {}ºF'.format(c, f))
+
+print('-'*30)
+
+dias = int(input('Quantidade de dias locado: '))
+km = float(input('Quantos km rodados? '))
+valor = dias * 60 + km * 0.15
+print('O veículo foi locado por {} dias e rodou {} km, tendo um valor de R$ {} a ser pago.'.format(dias, km, valor))

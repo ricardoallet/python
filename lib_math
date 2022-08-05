@@ -1,0 +1,20 @@
+import math
+
+x = int(input('Digite um número: '))
+print ('O número digitado foi {} \nO seu dobro é {},\nO seu triplo é {},\nE a sua raiz é {}'.format(x, x*2, x*3, x**(1/2)))
+raiz = math.sqrt(x)
+print('O valor da raiz quadrada é {:.2f}'.format(raiz))
+print('='*30)
+
+nome = input('Digite o nome do aluno: ')
+y = float(input('Digite a primeira nota: '))
+z = float(input('Digite a segunda nota: '))
+media = (y+z)/2
+print('A média do aluno(a) {} é {}'.format(nome, media))
+
+if (media >= 6):
+    print('Aprovado')
+else:
+    print('Reprovado')
+
+print('='*30)

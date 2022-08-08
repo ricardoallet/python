@@ -1,0 +1,7 @@
+'''Função hipotenusa'''
+
+from math import hypot
+
+x = float(input('Digite o valor de um cateto: '))
+y = float(input('Digite o valor do outro cateto: '))
+print('Com um cateto valendo {} e o outro valendo {} temos uma hipotenuza de {:.2f}'.format(x, y, hypot(x,y)))

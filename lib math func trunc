@@ -1,0 +1,8 @@
+'''Função trunc retorna a porção inteira do número digitado'''
+
+from math import trunc
+
+
+x = float(input('Digite um número: '))
+print('O valor é: {}'.format(trunc(x)))
+print('O valor digitado foi {} e sua porção inteira é {}'.format(x, int(x)))
